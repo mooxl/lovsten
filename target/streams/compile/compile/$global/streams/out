@@ -1,0 +1,13 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/max/Documents/Proggerzeugs/SCALAworkspace/praktikum3/src/main/scala/Main.scala:85:82: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: List((x: String forSome x not in "album"))[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def parseFile(tokenList:List[String], albumList:List[Album]) : List[Album] = tokenList match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/max/Documents/Proggerzeugs/SCALAworkspace/praktikum3/src/main/scala/Main.scala:91:84: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: List("artist"), List("artist", _), List("date"), List("date", _), List("title"), List("title", _), List((x: String forSome x not in ("/album", "artist", "date", "title", "track"))), List((x: String forSome x not in ("/album", "artist", "date", "title", "track"))), List((x: String forSome x not in ("/album", "artist", "date", "title", "track")), _), List((x: String forSome x not in ("/album", "artist", "date", "title", "track")), _, _), List(String()), List(String(), _), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def createAlbum(tokenList:List[String], album:Album) : (List[String], Album) = tokenList match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/max/Documents/Proggerzeugs/SCALAworkspace/praktikum3/src/main/scala/Main.scala:100:85: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: List("feature"), List("length"), List("rating"), List("title"), List("writing"), List((x: String forSome x not in ("/track", "feature", "length", "rating", "title", "writing"))), List((x: String forSome x not in ("/track", "feature", "length", "rating", "title", "writing")), _), List(String()), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def createTrack(tokenList:List[String], track:Track)  : (List[String], Track) = tokenList match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
